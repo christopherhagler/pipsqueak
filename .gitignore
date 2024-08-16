@@ -1,0 +1,55 @@
+# Ignore build directories
+/build/
+/out/
+/bin/
+/obj/
+/dist/
+
+# Ignore compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Ignore compiled libraries
+*.lib
+*.a
+*.la
+*.lo
+*.lai
+*.dll
+*.so
+*.dylib
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+
+# Ignore debugging files
+*.dSYM/
+*.stackdump
+*.core
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Ignore log files
+*.log
+
+# Ignore dependency files
+*.d
+
+# Ignore CMake build files (if applicable)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore SQLite database files (if generated during tests)
+*.db
+
