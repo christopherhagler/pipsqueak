@@ -1,0 +1,27 @@
+.TH DEPENDENCY_MANAGER 1 "August 2024" "Dependency Manager" "User Commands"
+.SH NAME
+dependency_manager \- A command-line utility to manage Python project dependencies
+
+.SH SYNOPSIS
+.B dependency_manager
+.RB [ --project ]
+.IR <path>
+
+.SH DESCRIPTION
+The dependency_manager command-line utility parses the dependencies of a Python project from the `requirements.txt` or `pyproject.toml` file and stores the dependencies in an SQLite database.
+
+.SH OPTIONS
+.TP
+.BI --project " <path>"
+The path to the Python project directory.
+
+.SH EXAMPLES
+.TP
+.B dependency_manager --project /path/to/python/project
+Parses the dependencies from the specified project and stores them in the SQLite database.
+
+.SH AUTHOR
+JoAnna Hagler
+
+.SH LICENSE
+This software is licensed under the MIT License.
